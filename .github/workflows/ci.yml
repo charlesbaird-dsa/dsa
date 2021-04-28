@@ -53,8 +53,10 @@ jobs:
       # - name: Build
       #   run: bundle exec rake build
 
-      - name: Publish
+      - name: Build
         run: bundle exec rake build
+     
+      - name: Publish
         run: bundle exec rake publish
 
       # Checkout stripped-down gh-pages branch to a subdirectory, for publishing
