@@ -17,7 +17,7 @@ require "lib/govuk_tech_docs/unique_identifier_generator"
 
 # Project setup
 project_name = "standards-catalogue"
-repo_name = "data-standards-authority"
+repo_name = "dsa"
 
 activate :sprockets
 
