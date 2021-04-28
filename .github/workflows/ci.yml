@@ -52,7 +52,7 @@ jobs:
 
       - name: Build
         run: bundle exec rake build
-        run: bundle exec rake publish
+      #  run: bundle exec rake publish
 
       # Checkout stripped-down gh-pages branch to a subdirectory, for publishing
       - name: Checkout gh-pages branch
