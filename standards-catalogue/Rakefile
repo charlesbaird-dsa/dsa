@@ -38,4 +38,4 @@ require "middleman-gh-pages"
   #   puts "Nothing to commit, skipping push"
   #  end
   # end
-end
+  # end
