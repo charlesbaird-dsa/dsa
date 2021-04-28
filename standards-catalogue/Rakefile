@@ -6,10 +6,14 @@ RuboCop::RakeTask.new
 
 task default: ["spec", "rubocop:auto_correct"]
 
-desc "Build and publish"
-task :publish do
+desc "Build Site"
+task :build do
 require "middleman-gh-pages"
   rake build
+
+desc "Publish Site"
+task :publish do
+require "middleman-gh-pages"
   rev = `git rev-parse --short HEAD`.chomp
   rake publish PROJECT_ROOT= `#{rev}/standards-catalogue`
 
