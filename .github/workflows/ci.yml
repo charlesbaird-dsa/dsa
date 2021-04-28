@@ -52,9 +52,6 @@ jobs:
 
       # - name: Build
       #   run: bundle exec rake build
-
-      - name: Build
-        run: bundle exec rake build
      
       - name: Publish
         run: bundle exec rake publish
